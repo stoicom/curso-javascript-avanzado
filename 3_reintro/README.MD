@@ -783,4 +783,16 @@ console.log('  Fictizia '.trim()); // 'Fictizia'
 
 ## Ejercicios
 
-1. 
+1. Crea una función que imprima por consola (```console.log()```) un mensaje dependiendo del parametro que se le pase:
+  * Si el parametro que se le pasa es mayor o igual que 18 debe imprimir **es mayor de edad**
+  * Si el parametro que se le pasa es menor que 18 debe imprimir **es menor de edad**
+  ```
+  function isAdult(age) {
+    console.log("")
+  }
+  ```
+
+2. Imprimir los numeros del 1 al 10
+3. Imprimir los numeros del 10 al 20 pero saltarse el 13
+4. Devolver la suma de 5434.3053 + 1230.2034 sin deciamles
+5. Crear la fecha de tu nacimiento y sacar un mensaje que diga **Nací el día D del mes M del año YYYY**
