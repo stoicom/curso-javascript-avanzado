@@ -7,7 +7,7 @@
   * VSCode
   * Atom
   * Sublime Text
-3. Reintroducción a Javascript
+3. [Reintroducción a Javascript](3_reintro/README.MD)
   * Arrays
   * Objetos
   * Números
