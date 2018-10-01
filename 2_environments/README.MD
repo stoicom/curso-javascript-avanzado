@@ -12,3 +12,7 @@ permiten ampliar la funcionalidad del editor. Algunas de las más útiles son es
 2. [Atom](https://atom.io/): Gratuito y de la comunidad. Es uno de los más usados y al igual que vscode cuenta con un monton de plugins
 3. [Sublime Text](https://www.sublimetext.com/): Muy rápido pero de pago. Es uno de los editores más famosos pero al ser de pago no es
 tan utilizado como los demás.
+
+## Ejercicio
+
+[Ver ejercicio](exercise.md)

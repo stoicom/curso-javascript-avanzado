@@ -15,3 +15,7 @@ Github es una plataforma de desarrollo donde podemos encontrar multitud de proye
 podemos subir nuestro código de manera gratuita. Es social y la plataforma de código más usada.
 
 [Ver más](github.md)
+
+## Ejercicio
+
+[Ver ejercicio](exercise.md)
