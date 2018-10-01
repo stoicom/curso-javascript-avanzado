@@ -61,3 +61,9 @@ git commit -m 'nombredelcommit'
 ```
 git push origin nombrerama
 ```
+
+## .gitignore
+
+El archivo .gitignore es un archivo que se encuentra en la raiz de nuestro repositorio y se utiliza para evitar
+subir ciertos archivos al repositorio (claves, librerías externas, etc...). Acepta expresiones regulares para poder
+excluir varios ficheros a la vez.
