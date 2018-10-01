@@ -3,7 +3,7 @@
 # Temario
 
 1. [Control de versiones (Git y Github)](1_git/README.MD)
-2. [Entornos de desarrollo](2_enviroments/README.MD)
+2. [Entornos de desarrollo](2_environments/README.MD)
   * VSCode
   * Atom
   * Sublime Text
