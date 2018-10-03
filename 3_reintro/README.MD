@@ -796,6 +796,14 @@ console.log('  Fictizia '.trim()); // 'Fictizia'
 3. Imprimir los numeros del 10 al 20 pero saltarse el 13
 4. Devolver la suma de 5434.3053 + 1230.2034 sin deciamles
 5. Crear la fecha de tu nacimiento y sacar un mensaje que diga **Nací el día D del mes M del año YYYY**
+6. Dada una cadena de caracteres cambiar las "a" por "b" y viceversa
+7. Dada una cadena de caracteres borrar el primer y el ultimo caracter.
+8. El gato y el raton:
+    - En una cadena de caracteres la C representa el gato y la m el raton.
+    - El gato puede saltar 3 posiciones para atrapar al raton.
+    - **Crea una funcion que devuelva si el gato puede atrapar al raton devolviendo true o false.**
+9. Dada una cadena de caracteres borrar las palabras duplicadas y solo quedarnos con su primera aparicion
+10. Dada una cadena de caracteres poner cada palabra de la cadena al revés.
 
 ### Arrays
 
