@@ -1057,4 +1057,32 @@ var cities = ["Washington", "Cupertino", "Los Gatos", "Menlo Park", "Mountain Vi
 5. Borrar el ultimo elemento de los dos arrays
 6. Imprimir una lista de las ciudades que empiecen por **A**
 7. Imprimir una lista de las ciudades que tengan igual o mas de 10 caracteres
+8. Dado un diccionario de lenguajes sacar un array en orden descendente que al menos tengan una puntacion de 60.
+Ejemplo
+{"javascript": 60, "python": 40, ruby: 80} -> ["ruby", "javascript"]
+9. Tienes una aplicacion de chat pero quieres saber quien está online. Crea una función que dada una entrada similar a esta:
+```
+[{
+  username: 'David',
+  status: 'online',
+  lastActivity: 10
+}, {
+  username: 'Lucy', 
+  status: 'offline',
+  lastActivity: 22
+}, {
+  username: 'Bob', 
+  status: 'online',
+  lastActivity: 104
+}]
+```
+Te devuelva quien esta online. Si su status es online pero su ultima actividad es mayor que 10 minutos su estado se considera "away".
+Un ejemplo de salida de la entrada anterior sería:
+```
+{
+  online: ['David'],
+  offline: ['Lucy'],
+  away: ['Bob']
+}
+```
 
