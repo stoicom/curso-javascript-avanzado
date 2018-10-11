@@ -1548,34 +1548,34 @@ saludar("Amigo/a")();
 1. Existe una lista de proyectos y cada proyecto tiene grupos. Estos grupos pueden tener grupos asociados. Devolver para cada
 proyecto el nombre de sus grupos y los grupos de los grupos. Ejemplo de entrada:
 ```
-[
-    {
-        project: 'project 1',
-        groups: [
-            {
-                name: 'group1',
-                groups: [
-                    {
-                        name: 'group1.1'
-                        groups: []
-                    },
-                    {
-                        name: 'group1.2'
-                        groups: [
-                            {
-                                name: 'group1.2.1',
-                                groups: []
-                            }
-                        ]
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        project: 'project2',
-        groups: []
-    }
+let projects = [
+  {
+      project: 'project 1',
+      groups: [
+          {
+              name: 'group1',
+              groups: [
+                  {
+                      name: 'group1.1',
+                      groups: []
+                  },
+                  {
+                      name: 'group1.2',
+                      groups: [
+                          {
+                              name: 'group1.2.1',
+                              groups: []
+                          }
+                      ]
+                  }
+              ]
+          }
+      ]
+  },
+  {
+      project: 'project2',
+      groups: []
+  }
 ]
 ```
 
