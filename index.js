@@ -162,4 +162,4 @@ function getLanguage(language) {
   return languagesObject[language] || 'Welcome'
 }
 
-console.log(getLanguage('spanishsss'))
+console.log(getLanguage('spanish'))

@@ -1319,7 +1319,22 @@ welsh: 'Croeso'
 **El lenguaje que viene siempre es uno de esos**
 **Puede ser que no venga lenguaje entonces debe devolver "Welcome"**
 
-3. Crea una funcion que reciba como primer parametro un array y como segundo un valor.
+3. Crear un objeto que tenga las siguientes propiedades y metodos:
+* Name
+* Saludar (método)
+* Decir adios (método)
+* Cambiar nombre (método)
+
+```
+let human = {name: 'Sergio', saludar: function(){}, ...}
+human.name //Sergio
+human.saludar() //Hi!
+human.adios() //Bye
+human.cambiarNombre('Alberto')
+human.name //Alberto
+```
+
+4. Crea una funcion que reciba como primer parametro un array y como segundo un valor.
 La funcion debe devolver true si el segundo parametro se encuentra dentro del array (primer parametro) y false si no se encuentra. Ejemplos de llamada a la funcion:
 ```
 isInArray([1, 2, 3], false) //false
