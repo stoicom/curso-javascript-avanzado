@@ -95,11 +95,11 @@ let people = [{
   status: 'online',
   lastActivity: 10
 }, {
-  username: 'Lucy', 
+  username: 'Lucy',
   status: 'offline',
   lastActivity: 22
 }, {
-  username: 'Bob', 
+  username: 'Bob',
   status: 'online',
   lastActivity: 104
 }]
@@ -125,7 +125,7 @@ function getUsers(peopleString) {
   let names = dataSet.filter(data => isNaN(data))
   let contacts = dataSet.filter(data => !isNaN(data))
   let users = []
-  for (let count=0; count < names.length; count++) {
+  for (let count = 0; count < names.length; count++) {
     users.push({
       username: names[count],
       contact: Number(contacts[count])
@@ -136,3 +136,30 @@ function getUsers(peopleString) {
 }
 
 // console.log(getUsers(peopleString))
+
+let languagesObject = {
+  english: 'Welcome',
+  czech: 'Vitejte',
+  danish: 'Velkomst',
+  dutch: 'Welkom',
+  estonian: 'Tere tulemast',
+  finnish: 'Tervetuloa',
+  flemish: 'Welgekomen',
+  french: 'Bienvenue',
+  german: 'Willkommen',
+  irish: 'Failte',
+  italian: 'Benvenuto',
+  latvian: 'Gaidits',
+  lithuanian: 'Laukiamas',
+  polish: 'Witamy',
+  spanish: 'Bienvenido',
+  swedish: 'Valkommen',
+  welsh: 'Croeso'
+}
+
+
+function getLanguage(language) {
+  return languagesObject[language] || 'Welcome'
+}
+
+console.log(getLanguage('spanishsss'))

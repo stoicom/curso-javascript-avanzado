@@ -1319,6 +1319,13 @@ welsh: 'Croeso'
 **El lenguaje que viene siempre es uno de esos**
 **Puede ser que no venga lenguaje entonces debe devolver "Welcome"**
 
+3. Crea una funcion que reciba como primer parametro un array y como segundo un valor.
+La funcion debe devolver true si el segundo parametro se encuentra dentro del array (primer parametro) y false si no se encuentra. Ejemplos de llamada a la funcion:
+```
+isInArray([1, 2, 3], false) //false
+isInArray([1, 'Sergio', 3], false) //false
+isInArray([1, 'Sergio', false], false) //true
+```
 
 ### Funciones
 
