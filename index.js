@@ -162,4 +162,89 @@ function getLanguage(language) {
   return languagesObject[language] || 'Welcome'
 }
 
-console.log(getLanguage('spanish'))
+// console.log(getLanguage('spanish'))
+
+let human = {
+  name: 'Sergio',
+  saludar: function() {
+    console.log('Ey!')
+  },
+  adios: function() {
+    console.log('Bye!')
+  },
+  cambiarNombre: function(newName) {
+    this.name = newName
+  }
+}
+
+// console.log(human.name)
+// human.saludar()
+// human.adios()
+// human.cambiarNombre('Alberto')
+// console.log(human.name)
+// let cambiarNombre = human.cambiarNombre.bind(human)
+// cambiarNombre('Rodrigo')
+// console.log(human.name)
+
+
+var isInArray = function(array, value) {
+  return array.includes(value)
+}
+
+
+
+console.log(isInArray([1, 2, 3], false))
+console.log(isInArray([1, 'Sergio', 3], false))
+console.log(isInArray([1, 'Sergio', false], false))
+
+let projects = [
+  {
+      project: 'project 1',
+      groups: [
+          {
+              name: 'group1',
+              groups: [
+                  {
+                      name: 'group1.1',
+                      groups: []
+                  },
+                  {
+                      name: 'group1.2',
+                      groups: [
+                          {
+                              name: 'group1.2.1',
+                              groups: []
+                          }
+                      ]
+                  }
+              ]
+          }
+      ]
+  },
+  {
+      project: 'project2',
+      groups: []
+  }
+]
+
+function getProjects(projects) {
+  return projects.map(project => {
+    return {
+      project: project.project,
+      groups: getGroups(project.groups)
+    }
+  })
+
+}
+
+function getGroups(groups) {
+  let names = []
+  for (let count = 0; count < groups.length; count++) {
+    let group = groups[count]
+    names.push(group.name)
+    if (group.groups.length) names = [...names, ...getGroups(group.groups)]
+  }
+  return names
+}
+
+console.log(getProjects(projects))
