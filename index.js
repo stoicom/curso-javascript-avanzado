@@ -11,7 +11,7 @@ function changeLetters(stringToChange) {
 function removeCharacters(stringToChange) {
   return stringToChange.substring(1, stringToChange.length - 1)
 }
-// console.log(removeCharacters("hola"))
+//console.log(removeCharacters("hola"))
 
 function canKillMouse(string) {
   return (string.indexOf('m') - 1) <= 3
@@ -23,14 +23,14 @@ function removeRepeatedWords(string) {
   return Array.from(new Set(string.split(" "))).join(" ")
 }
 
-// console.log(removeRepeatedWords("barcelona madrid barcelona praga praga madrid barcelona ibiza madrid ibiza"))
+//console.log(removeRepeatedWords("barcelona madrid barcelona praga praga madrid barcelona ibiza madrid ibiza"))
 
 
 function speakAsDaemon(string) {
   return string.split(' ').map(word => word.split('').reverse().join('')).join(" ")
 }
 
-// console.log(speakAsDaemon("hola que tal estas"))
+ //console.log(speakAsDaemon("hola que tal estas"))
 
 
 function getBestLanguages(languages) {
@@ -56,7 +56,7 @@ let languages = [
   }
 ]
 
-// console.log(getBestLanguages(languages))
+//console.log(getBestLanguages(languages))
 
 
 var companies = ["Amazon", "Apple", "Netflix", "Facebook", "Google"]
@@ -74,7 +74,7 @@ let count2 = 0
 // }
 
 
-// console.log(companies.concat(cities))
+console.log(companies.concat(cities))
 // console.log([...companies, ...cities])
 
 // for (let count = 0; count < cities.length; count++) {
@@ -193,9 +193,9 @@ var isInArray = function(array, value) {
 
 
 
-console.log(isInArray([1, 2, 3], false))
-console.log(isInArray([1, 'Sergio', 3], false))
-console.log(isInArray([1, 'Sergio', false], false))
+// console.log(isInArray([1, 2, 3], false))
+// console.log(isInArray([1, 'Sergio', 3], false))
+// console.log(isInArray([1, 'Sergio', false], false))
 
 let projects = [
   {
@@ -247,4 +247,4 @@ function getGroups(groups) {
   return names
 }
 
-console.log(getProjects(projects))
+//console.log(getProjects(projects))
